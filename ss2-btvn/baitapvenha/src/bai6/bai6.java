@@ -35,6 +35,7 @@ public class bai6 {
                         for (int i = 2; i < b / 2; i++) {
                             if (b % i == 0) {
                                 check = false;
+                                break;
                             }
                         }
                         if (check) {
